@@ -988,7 +988,7 @@ static void setCommandLineDefaults()
      * TODO: base these on a system or application-specific default
      */
     gDvm.heapSizeStart = 2 * 1024 * 1024;   // Spec says 16MB; too big for us.
-    gDvm.heapSizeMax = 16 * 1024 * 1024;    // Spec says 75% physical mem
+    gDvm.heapSizeMax = 32 * 1024 * 1024;    // Spec says 75% physical mem
     gDvm.stackSize = kDefaultStackSize;
 
     /* gDvm.jdwpSuspend = true; */
